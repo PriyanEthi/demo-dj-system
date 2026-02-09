@@ -1,0 +1,16 @@
+{
+  "name": "DJ XPerience",
+  "short_name": "DJ XP",
+  "description": "Premium DJ Booking Service",
+  "start_url": "/demo-dj-system/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    {
+      "src": "/demo-dj-system/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AudioProvider } from '@/context/AudioContext';
 import Layout from '@/components/layout/Layout';
 import { Toaster } from 'react-hot-toast';
+import InstallPWA from '@/components/InstallPWA';
 
 import Home from '@/pages/Home';
 import Booking from '@/pages/Booking';
@@ -28,6 +29,7 @@ function App() {
             },
           }}
         />
+        <InstallPWA />
       </AudioProvider>
     </Router>
   );
