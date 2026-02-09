@@ -10,7 +10,7 @@ import ScrollToTop from '@/components/layout/ScrollToTop';
 
 function App() {
   return (
-    <Router basename="/demo-dj-system">
+    <Router basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
       <AudioProvider>
         <Routes>
